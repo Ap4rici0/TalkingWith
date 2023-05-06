@@ -1,0 +1,26 @@
+@mixin bars($bg-color: #f1f1){
+    color: black;
+    background-color: $bg-color;
+    border-bottom: 1px solid black;
+}
+
+.body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.head-content{
+    @include bars();
+    border-top: 1px solid black;
+}
+
+.body-chat{
+    @include bars();
+    background-color: #fff;
+}
+
+.bottom-content{
+    @include bars();
+    align-self: end;
+}
