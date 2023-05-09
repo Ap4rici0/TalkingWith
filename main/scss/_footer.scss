@@ -1,0 +1,6 @@
+.bottom-content{
+    padding: 0;
+    margin: 0;
+    @include bars();
+    @include bottom();
+}

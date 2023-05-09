@@ -1,0 +1,32 @@
+.body-chat{
+    @include bars(#fff);
+    background-image: url(https://e0.pxfuel.com/wallpapers/9/493/desktop-wallpaper-dragon-ball-background-dash-dragon-ball-scenery.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#buttons-config{
+    display: flex;
+    margin: 5rem 15rem 10rem 5rem;
+    width: 50rem;
+}
+.chat-control{
+    align-items: center;
+}
+.form-control{
+    opacity: 50%;
+    overflow: hidden;
+    resize: none;
+}
+
+.label-control{
+    opacity: 50%;
+}
+
+#btn-send{
+    margin-left: 1rem;
+    padding: 2%;
+}
